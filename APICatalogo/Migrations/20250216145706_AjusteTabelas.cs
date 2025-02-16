@@ -88,13 +88,13 @@ namespace APICatalogo.Migrations
 
             migrationBuilder.UpdateData(
                 table: "Categorias",
-                keyColumn: "ImageUrl",
+                keyColumn: "ImagemUrl",
                 keyValue: null,
-                column: "ImageUrl",
+                column: "ImagemUrl",
                 value: "");
 
             migrationBuilder.AlterColumn<string>(
-                name: "ImageUrl",
+                name: "ImagemUrl",
                 table: "Categorias",
                 type: "varchar(300)",
                 maxLength: 300,
